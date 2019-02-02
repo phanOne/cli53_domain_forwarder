@@ -8,4 +8,4 @@ Pre-reqs:
 
 Usage:
 
-./dnsfwd.sh <domain> <destination>
+./dnsfwd.sh domain destination
