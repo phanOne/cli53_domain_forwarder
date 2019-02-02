@@ -3,11 +3,8 @@
 #
 # ./dnsfwd <subdomain> <destination>
 #
-# check forwarding
-# ./dnsfwd -c <domain>
-
 if [ -z $1 ]; then
-  echo "usage: ./dnsfwd <subdomain> <optional destination> - defaults to www.defaultdestinationURL.com"
+  echo "usage: ./dnsfwd <domainToFwd> <optional destination> - defaults to www.defaultdestinationURL.com"
   exit
 else
   domainToFwd=$1
